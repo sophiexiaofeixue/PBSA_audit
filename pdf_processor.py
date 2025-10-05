@@ -376,24 +376,24 @@ def analyze_pdf_signatures(file_path: str) -> None:
     
     print("\n" + "="*60)
 
-# Test function
-if __name__ == "__main__":
-    # Test with your PDF files
-    test_files = [
-        #"/Users/xiaofeixue/pbsa_audit/uploads/prepared_docs/1.01 2024 MeridianLink Gap Letter.pdf",
-        #"/Users/xiaofeixue/pbsa_audit/uploads/prepared_docs/1.01 2024 MeridianLink Penetration Test Letter.pdf"
-        "/Users/xiaofeixue/pbsa_audit/uploads/prepared_docs/Verified.ID New Customer Intake.pdf",
-        "/Users/xiaofeixue/pbsa_audit/uploads/prepared_docs/Verified.ID New Customer Intake 1.pdf"
-    ]
+# # Test function
+# if __name__ == "__main__":
+#     # Test with your PDF files
+#     test_files = [
+#         #"/Users/xiaofeixue/pbsa_audit/uploads/prepared_docs/1.01 2024 MeridianLink Gap Letter.pdf",
+#         #"/Users/xiaofeixue/pbsa_audit/uploads/prepared_docs/1.01 2024 MeridianLink Penetration Test Letter.pdf"
+#         "/Users/xiaofeixue/pbsa_audit/uploads/prepared_docs/Verified.ID New Customer Intake.pdf",
+#         "/Users/xiaofeixue/pbsa_audit/uploads/prepared_docs/Verified.ID New Customer Intake 1.pdf"
+#     ]
     
-    print("🚀 Starting PDF Signature Analysis")
-    print("="*80)
+#     print("🚀 Starting PDF Signature Analysis")
+#     print("="*80)
     
-    for file_path in test_files:
-        if os.path.exists(file_path):
-            analyze_pdf_signatures(file_path)
-            print("\n" + "🔄"*20 + " NEXT FILE " + "🔄"*20 + "\n")
-        else:
-            print(f"❌ File not found: {file_path}")
+#     for file_path in test_files:
+#         if os.path.exists(file_path):
+#             analyze_pdf_signatures(file_path)
+#             print("\n" + "🔄"*20 + " NEXT FILE " + "🔄"*20 + "\n")
+#         else:
+#             print(f"❌ File not found: {file_path}")
     
-    print("✅ Analysis complete!")
+#     print("✅ Analysis complete!")
